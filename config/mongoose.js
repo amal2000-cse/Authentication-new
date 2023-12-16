@@ -1,6 +1,5 @@
 //setting up mongoose
 const mongoose = require("mongoose");
-require("dotenv").config();
 
 const mongo = async () => {
   try {
