@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(0, 128, 255); /* Changed background color */
+    font-family: 'Arial', sans-serif; /* Changed font family */
+
+}
+
+.signupContainer {
+    width: 40%;
+    background-color: lightgray; /* Changed background color */
+    border-radius: 15px; /* Increased border radius */
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputField {
+    padding: 10px; /* Increased padding */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inputFieldi {
+    width: 60%; /* Decreased width */
+    padding: 14px; /* Increased padding */
+    border-radius: 8px; /* Increased border radius */
+    border: 2px solid lightgray; /* Added border */
+    outline: none;
+    font-size: 1.2rem; /* Increased font size */
+    box-shadow: 0px 0px 4px 2px lightgray; /* Increased box shadow */
+}
+
+.btncontainer {
+    padding: 10px; /* Increased padding */
+    width: 100%;
+    margin-bottom: 10px; /* Increased margin */
+    display: flex;
+    justify-content: center;
+    margin-top: 15px; /* Increased margin */
+}
+
+.btn {
+    width: 70%; /* Decreased width */
+    padding: 14px; /* Increased padding */
+    color: white;
+    background-color: rgb(0, 128, 255); /* Changed background color */
+    border: 2px solid white; /* Added border */
+    border-radius: 10px; /* Increased border radius */
+    margin: auto;
+    font-size: 1.2rem; /* Increased font size */
+    font-weight: 600; /* Increased font weight */
+    letter-spacing: 2px; /* Increased letter spacing */
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(0, 96, 192); /* Darker hover color */
+}
+
+.hr {
+    width: 100%;
+    margin-bottom: 10px; /* Increased margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span1,
+.span2,
+.spanor {
+    color: darkgray; /* Changed color to dark gray */
+}
+
+.gimg {
+    width: 25px; /* Decreased width */
+    height: 25px; /* Decreased height */
+}
+
+.gbtn {
+    background-color: rgb(75, 127, 223); /* Changed background color */
+    display: flex;
+    align-items: center;
+    width: 70%; /* Decreased width */
+    border-radius: 8px; /* Increased border radius */
+    padding: 10px; /* Increased padding */
+    border: 1px solid rgb(237, 106, 228); /* Darkened border color */
+    cursor: pointer;
+}
+
+.glink {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem; /* Increased font size */
+    font-weight: 700; /* Increased font weight */
+}
+
+.fbtn {
+    display: flex;
+    align-items: center;
+    width: 70%; /* Decreased width */
+    border-radius: 8px; /* Increased border radius */
+    padding: 10px; /* Increased padding */
+    border: 2px solid rgb(0, 0, 128); /* Changed border color to blue */
+    cursor: pointer;
+    background-color: rgb(0, 56, 112); /* Darkened background color */
+    color: white; /* Changed text color to white */
+}

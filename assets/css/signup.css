@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(0, 128, 255);
+    font-family: 'Arial', sans-serif; /* Changed font family */
+}
+
+.signupContainer {
+    width: 40%;
+    background-color: lightgray;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputField {
+    padding: 10px; /* Increased padding */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inputFieldi {
+    width: 60%;
+    padding: 14px;
+    border-radius: 8px;
+    border: 2px solid lightgray;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', serif; /* Changed font family */
+    box-shadow: 0px 0px 4px 2px lightgray;
+}
+
+.btncontainer {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.btn {
+    width: 70%;
+    padding: 14px;
+    color: white;
+    background-color: rgb(0, 128, 255);
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Verdana', sans-serif; /* Changed font family */
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(0, 96, 192);
+}
+
+.hr {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span1,
+.span2,
+.spanor {
+    color: darkgray;
+    font-family: 'Georgia', serif; /* Changed font family */
+}
+
+.gimg {
+    width: 25px;
+    height: 25px;
+}
+
+.gbtn {
+    background-color: rgb(79, 131, 235);
+    display: flex;
+    align-items: center;
+    width: 70%;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid rgb(244, 72, 215);
+    cursor: pointer;
+    font-family: 'Courier New', monospace; /* Changed font family */
+}
+
+.glink {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Helvetica', sans-serif; /* Changed font family */
+}
+
+.fbtn {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 128);
+    cursor: pointer;
+    background-color: rgb(0, 56, 112);
+    color: white;
+    font-family: 'Palatino Linotype', serif; /* Changed font family */
+}
